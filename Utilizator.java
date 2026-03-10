@@ -1,8 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ip_lab4;
+
+package lab04IP.example;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,7 +51,7 @@ public class Utilizator {
         Utilizator user = new Utilizator("Maria Popescu", "maria@email.com", "parola123");
         
         // Simulam o recenzie creata (presupunand ca ai deja clasa Recenzie in proiect)
-        Recenzie recenziaMariei = new Recenzie("Maria Popescu", 5, "Un loc minunat!");
+        Recenzie recenziaMariei = new Recenzie("Maria Popescu", user, 4, 4);
         
         // Incearca sa scrie o recenzie fara sa fie logata (va da eroare)
         user.scrieRecenzie(recenziaMariei);

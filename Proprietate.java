@@ -1,11 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ip_lab4;
-
-package org.example;
-
+package lab04IP.example;
 import lombok.*;
 
 @AllArgsConstructor
